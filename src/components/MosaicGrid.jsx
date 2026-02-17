@@ -107,6 +107,7 @@ export function MosaicGrid({ slots, setMosaicSlots, activeSlot, setActiveSlot, i
                 style={{ width: '100%', height: '100%', border: 'none' }} 
                 allowFullScreen 
                 allow="encrypted-media; autoplay"
+                referrerPolicy="no-referrer"
               />
             )}
             
