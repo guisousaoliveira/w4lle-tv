@@ -54,7 +54,8 @@ export const channelGroups = [
   {
     name: "Canais Abertos / Variados",
     channels: [
-      { id: 'sbt', name: 'SBT' },
+      { id: 'globosp', name: 'Globo SP' },
+      { id: 'globorj', name: 'Globo RJ' },
       { id: 'record', name: 'Record' },
       { id: 'band', name: 'Band' },
       { id: 'tnt', name: 'TNT Sports' },
