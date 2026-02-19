@@ -1,15 +1,5 @@
 export const channelGroups = [
-  {
-    name: "Max / HBO",
-    channels: [
-      { id: 'max1', name: 'Max 1' },
-      { id: 'max2', name: 'Max 2' },
-      { id: 'max3', name: 'Max 3' },
-      { id: 'max4', name: 'Max 4' },
-      { id: 'max5', name: 'Max 5' },
-    ]
-  },
-  {
+    {
     name: "Premiere",
     channels: [
       { id: 'premiere', name: 'Premiere' },
@@ -21,6 +11,16 @@ export const channelGroups = [
       { id: 'premiere7', name: 'Premiere 7' },
       { id: 'premiere8', name: 'Premiere 8' },
       { id: 'premiere9', name: 'Premiere 9' },
+    ]
+  },
+  {
+    name: "Max / HBO",
+    channels: [
+      { id: 'max1', name: 'Max 1' },
+      { id: 'max2', name: 'Max 2' },
+      { id: 'max3', name: 'Max 3' },
+      { id: 'max4', name: 'Max 4' },
+      { id: 'max5', name: 'Max 5' },
     ]
   },
   {
@@ -52,6 +52,15 @@ export const channelGroups = [
     ]
   },
   {
+    name: "Paramount +",
+    channels: [
+      { id: 'paramount1', name: 'Paramount 1' },
+      { id: 'paramount2', name: 'Paramount 2' },
+      { id: 'paramount3', name: 'Paramount 3' },
+      { id: 'paramount4', name: 'Paramount 4' },
+    ]
+  },
+  {
     name: "Canais Abertos / Variados",
     channels: [
       { id: 'globosp', name: 'Globo SP' },
@@ -62,7 +71,7 @@ export const channelGroups = [
       { id: 'ds1', name: 'DS Sports 1' },
       { id: 'xsports', name: 'X Sports' }
     ]
-  }
+  },
 ];
 
 export const BASE_URL = import.meta.env.VITE_STREAM_URL || "";
